@@ -1,5 +1,5 @@
 body {
-  background-color: var(--background);
+  background-color: #effcff;
 
   display: flex;
 
@@ -32,14 +32,15 @@ body {
 form {
   height: 100vh;
   width: 55vw;
-  padding: 20px 8%;
+  padding: 0 8%;
 
   background-image: linear-gradient(to top, var(--blue) 10%, var(--surface) 10%);
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  gap: 4%;
+  gap: 2vh;
 }
 
 .form__header {
