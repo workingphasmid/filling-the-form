@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Knewave&display=swap");
+
+:root {
+  --primary: #98b2f3;
+  --black: #000;
+  --white: #fff;
+  --surface: #edf6ff;
+  --blue: #7abefc;
+
+  --header-3: 24px "Itim", cursive;
+  --display: 65px "Knewave", system-ui;
+  --paragraph: 24px/40px "Itim", cursive;
+  --body: 22px "Itim", cursive;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
