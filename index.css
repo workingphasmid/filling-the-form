@@ -2,8 +2,6 @@ body {
   background-color: #effcff;
 
   display: flex;
-
-  position: relative;
 }
 
 .section {
@@ -15,6 +13,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
+
+  background-image: url("./assets/water-image.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .section__header {
@@ -69,6 +71,9 @@ form {
 
   border-radius: 25px;
   border: 1px solid var(--primary);
+
+  min-height: 2vh;
+  max-height: 5vh;
 }
 
 .form__button-container {
@@ -115,10 +120,4 @@ form {
   background-color: var(--primary);
 
   box-shadow: 4px 4px 10px #5989b6;
-}
-
-.image {
-  position: absolute;
-  z-index: -1;
-  bottom: 0;
 }
